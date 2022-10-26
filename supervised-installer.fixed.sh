@@ -150,8 +150,8 @@ if [[ "$answer" =~ "y" ]] || [[ "$answer" =~ "Y" ]]; then
 #sudo echo 'auto lo' >> /etc/network/interfaces
 #sudo echo 'iface lo inet loopback' >> /etc/network/interfaces
 #sudo echo '' >> /etc/network/interfaces
-#sudo echo '#auto enp1s0' >> /etc/network/interfaces
-#sudo echo '#iface enp1s0 inet dhcp' >> /etc/network/interfaces
+#sudo echo '#auto enp0s3' >> /etc/network/interfaces
+#sudo echo '#iface enp0s3 inet dhcp' >> /etc/network/interfaces
 #sudo echo '' >> /etc/network/interfaces
 #sudo echo '#auto wlp2s0' >> /etc/network/interfaces
 #sudo echo '#iface wlp2s0 inet dhcp' >> /etc/network/interfaces
